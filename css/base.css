@@ -1,19 +1,4 @@
-:root {
-  --primary-dark: #1a2240;
-  --primary-gold: #d4a574;
-  --primary-gold-dark: #b8945a;
-  --accent-light: #f5f7fa;
-  --accent-white: #ffffff;
-  --text-dark: #1a2240;
-  --text-light: #666666;
-  --border-color: #e0e0e0;
-  --shadow-light: rgba(26, 34, 64, 0.08);
-  --shadow-medium: rgba(26, 34, 64, 0.12);
-  --shadow-dark: rgba(26, 34, 64, 0.2);
 
-  --gradient-gold: linear-gradient(135deg, #d4a574 0%, #b8945a 100%);
-  --gradient-dark: linear-gradient(135deg, #1a2240 0%, #2d3e54 100%);
-}
 
 body {
   background-color: var(--accent-light);
@@ -178,3 +163,4 @@ a {
 .p-4 {
   padding: 2rem;
 }
+
