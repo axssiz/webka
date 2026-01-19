@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/contacts-page.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">Sultan</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <h1>Контакты</h1>
+          <p>Свяжитесь с нами, чтобы узнать больше о наших услугах</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Наши контакты</h2>
+
+            <div class="info-item">
+              <div class="info-label">Телефон</div>
+              <div class="info-value">
+                <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-label">Email</div>
+              <div class="info-value">
+                <a href="mailto:info@sultan.ru">info@sultan.ru</a>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-label">Адрес</div>
+              <div class="info-value">Москва, ул. Примерная 123, офис 456</div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-label">Режим работы</div>
+              <div class="info-value">
+                Пн-Пт: 9:00 - 18:00<br />Сб-Вс: 10:00 - 16:00
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-label">Соцсети</div>
+              <div class="info-value">
+                <a href="#">Instagram</a> • <a href="#">VK</a> •
+                <a href="#">Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form"
+            onsubmit="
+              event.preventDefault();
+              alert(
+                'Спасибо за сообщение! Мы свяжемся с вами в ближайшее время.',
+              );
+            "
+          >
+            <h2>Отправить сообщение</h2>
+
+            <div class="form-group">
+              <label for="name">Ваше имя</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Тема</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="form-btn">Отправить</button>
+          </form>
+        </div>
+
+        <section class="faq">
+          <h2>Часто задаваемые вопросы</h2>
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>Какой процент комиссии?</h3>
+              <p>
+                Комиссия зависит от типа сделки и составляет от 1% до 3% от
+                стоимости недвижимости. Уточните детали у наших менеджеров.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Сколько времени занимает продажа?</h3>
+              <p>
+                В среднем процесс продажи занимает от 2 недель до 2 месяцев в
+                зависимости от характеристик объекта и спроса.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Помогаете ли вы с документами?</h3>
+              <p>
+                Да, мы предоставляем полную юридическую поддержку. Наши
+                специалисты помогут оформить все необходимые документы.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Проверяете ли вы историю объекта?</h3>
+              <p>
+                Конечно. Мы тщательно проверяем каждый объект на наличие
+                обременений и других правовых ограничений.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Можно ли вернуть деньги?</h3>
+              <p>
+                Возврат возможен в соответствии с условиями договора. Обсудите
+                все детали с менеджером до подписания.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <h3>Как вы определяете стоимость?</h3>
+              <p>
+                Стоимость определяется на основе анализа рынка, состояния
+                объекта и его местоположения. Мы проводим полную оценку.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="footer-content">
+        <div>
+          <h4>Sultan</h4>
+          <p>
+            Ваш надежный партнер в мире недвижимости. Мы помогаем найти дом
+            вашей мечты.
+          </p>
+        </div>
+        <div>
+          <h4>Навигация</h4>
+          <p>
+            <a href="index.html" style="color: #d97706; text-decoration: none"
+              >Главная</a
+            >
+          </p>
+          <p>
+            <a href="about.html" style="color: #d97706; text-decoration: none"
+              >О нас</a
+            >
+          </p>
+          <p>
+            <a href="catalog.html" style="color: #d97706; text-decoration: none"
+              >Каталог</a
+            >
+          </p>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <p>+7 (999) 123-45-67</p>
+          <p>info@sultan.ru</p>
+          <p>Москва, ул. Примерная 123</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
